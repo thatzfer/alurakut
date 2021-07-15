@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: #D9E6F6;
     font-family: sans-serif;
+    background: url('') fixed;
   }
 
   #__next {
