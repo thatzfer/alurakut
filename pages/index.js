@@ -47,7 +47,8 @@ function ProfileRelationsArea(propriedades) {
 }
 
 export default function Home() {
-  const [comunidades, setComunidades] = React .useState([{
+  const [comunidades, setComunidades] = React .useState([
+  {
     id:'23423423423',
     title: 'Eu odeio acordar cedo',
     image: 'http://alurakut.vercel.app/capa-comunidade-01.jpg',
@@ -166,7 +167,7 @@ export default function Home() {
                 {comunidades.map((itemAtual) => {
                   return (
                   <li key={itemAtual.id}>
-                      <a href={`/users/${itemAtual.title}`}>
+                      <a href={itemAtual.url}>
                       <img src={itemAtual.image} />;
                       <span>{itemAtual.title}</span>
                     </a>

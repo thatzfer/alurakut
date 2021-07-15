@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: #D9E6F6;
     font-family: sans-serif;
-    background: url('') fixed;
+    background: url('https://i.pinimg.com/originals/a4/7d/cc/a47dcccd96e1ff580bcbb919add71807.jpg') fixed;
   }
 
   #__next {
